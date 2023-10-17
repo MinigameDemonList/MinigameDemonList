@@ -61,16 +61,16 @@ export default {
                     <p v-if="selected + 1 <= 15"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
                     <p v-else-if="selected +1 <= 50"><strong>100%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
-                    <p><strong>Handcam is {{['not needed', 'recommended', 'necessary'][level.handcam]}} for this level.</strong></p>
                     <table class="records">
-                        <tr v-for="record in level.records" class="record">
-                            <td class="percent">
-                                <p>{{ record.percent }}%</p>
-                            </td>
-                            <td class="user">
-                                <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
-                            </td>
-                        </tr>
+                        <td class="percent">
+                            <p>{{ record.percent }}%</p>
+                        </td>
+                        <td class="user">
+                            <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
+                        </td>
+                        <td class="mobile">
+                            <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
+                        </td>
                     </table>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
