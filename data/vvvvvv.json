@@ -10,6 +10,15 @@
     "verificationVid": "https://www.youtube.com/watch?v=tgwp2wmyaGY",
     "password": "Free to Copy",
     "records": [
-      
+      {
+            "percent": "100",
+            "link": "https://www.youtube.com/watch?v=cr2D1A3h3q8&list=PLwVW7ddGUHhb4ebYg01xdhwt9UnX6s_Tl&index=24",
+            "user": "Sholka"
+},
+{
+            "percent": "100",
+            "link": "https://minigamedemonlist.github.io/MinigameDemonList/#/",
+            "user": "tomm"
+}
     ]
 }
