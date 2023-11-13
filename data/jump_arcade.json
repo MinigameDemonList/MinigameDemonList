@@ -10,6 +10,10 @@
     "verificationVid": "Verification Video Link",
     "password": "Not Copyable",
     "records": [
-      
+      {
+            "percent": "100",
+            "link": "https://www.youtube.com/watch?v=uhIZ71NK8Jw",
+            "user": "Sholka"
+},
     ]
 }
