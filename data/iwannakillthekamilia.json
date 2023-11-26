@@ -10,10 +10,15 @@
     "verificationVid": "https://youtu.be/oD0_6cgz1nY?si=5qnufbbR6LQvJP9X",
     "password": "Free to Copy",
     "records": [
-      {
+{
             "percent": "100",
             "link": "https://youtu.be/CxFyGhleQ8s?si=o4xKaYxhTa3nP6Wr",
             "user": "Electro325"
-      }
+},
+{
+            "percent": "100",
+            "link": "https://www.youtube.com/watch?v=ndgtwfIdEGY",
+            "user": "Zork"
+}
     ]
 }
