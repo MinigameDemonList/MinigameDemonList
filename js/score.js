@@ -18,19 +18,20 @@ export function score(rank, percent, minPercent) {
         return 0;
     }
 
-    // Old formula
+    // Old old old formula
     /*
     let score = (100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50) *
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     */
-    // New formula
+    // Old old formula
     /*
     let score = (-24.9975*Math.pow(rank-1, 0.4) + 200) *
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     */
-    
-    //New new formula
-    let score = ((473.999389302/(rank + 3.39387060159))-7.87741203178)
+    // Old formula
+    /*let score = ((473.999389302/(rank + 3.39387060159))-7.87741203178);*/
+    // New formula
+    let score = 5820.69/(rank+27.8753) - 51.58;
 
     score = Math.max(0, score);
 
